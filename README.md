@@ -1,2 +1,2 @@
-# Taller1-Scripting-Nicole-Sof-a-Jacobo
+# Taller1-Scripting-Nicole-Sofia-Jacobo
 :D
