@@ -61,7 +61,7 @@
 • 10. Lea una matriz 3D, luego cree 3 arreglos a partir de la matriz leída
 
 ### Solución 
-```
+```c#
 internal class Program
     {
         static void Main(string[] args)
@@ -110,7 +110,7 @@ internal class Program
 #### Operador == (igualdad)
 Compara si dos valores son exactamente iguales.
 
-```
+```c#
     internal class Program
     {
         static void Main(string[] args)
@@ -136,7 +136,7 @@ Compara si dos valores son exactamente iguales.
 #### Operador && (y lógico)
 Evalúa si ambas condiciones son verdaderas para ejecutar un bloque de código.
 
-```
+```c#
     internal class Program
     {
         static void Main(string[] args)
@@ -163,7 +163,7 @@ Evalúa si ambas condiciones son verdaderas para ejecutar un bloque de código.
 #### Operador >= o < (Mayor o igual que - Menor)
 Verifica si un valor es mayor o igual a otro o compara si un valor es estrictamente menor que otro.
 
-```
+```c#
 internal class Program
     {
         static void Main(string[] args)
@@ -193,7 +193,7 @@ internal class Program
 #### Operador != (Diferente de)
 Compara si un valor es diferente de otro.
 
-```
+```c#
     internal class Program
     {
         static void Main(string[] args)
@@ -217,7 +217,7 @@ Compara si un valor es diferente de otro.
 
 #### Operador || (OR lógico)
 Evalúa si al menos una de dos condiciones es verdadera.
-```
+```c#
        internal class Program
     {
         static void Main(string[] args)
