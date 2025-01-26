@@ -18,7 +18,7 @@
 
 • 18. Realice una función, que lea un número de máximo 8 cifras y luego sume cada dígito hasta obtener un valor de un solo dígito.
 
-```
+```c#
     internal class Program
     {
         static void Main(string[] args)
