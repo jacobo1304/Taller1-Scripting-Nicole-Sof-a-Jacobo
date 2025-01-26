@@ -18,6 +18,7 @@
 
 • 18. Realice una función, que lea un número de máximo 8 cifras y luego sume cada dígito hasta obtener un valor de un solo dígito.
 
+### Solución 
 ```c#
     internal class Program
     {
@@ -102,6 +103,7 @@ internal class Program
 ## Condicionales o ciclos (1)
 • 29. Usando un ciclo for, calcule el factorial de un número n, tenga en cuenta validar casos especiales.
 
+### Solución 
 ```c#
 class Program
     {
