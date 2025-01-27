@@ -309,3 +309,65 @@ Evalúa si al menos una de dos condiciones es verdadera.
 
 ✦ Estas palabras son llamadas así porque tienen funciones específicas que el lenguaje interpreta para estructurar y ejecutar el código. No pueden usarse como nombres de variables u otros elementos, ya que el compilador las reconoce como comandos específicos asignadas a su propósito definido en el lenguaje.
 
+## Firmas 
+
+1- public static int CalcularSuma(int x, int y)
+Invocación: int resultado = CalcularSuma(5, 10);
+
+2- private float CalcularPromedio(float[] numeros)
+Invocación: float promedio = CalcularPromedio(new float[] { 3.5f, 4.8f, 6.2f });
+
+3- protected static void ImprimirMensaje(string mensaje)
+Invocación: ImprimirMensaje("Hola, mundo!");
+
+4- public static long CalcularFactorial(int n)
+Invocación: long factorial = CalcularFactorial(10);
+
+5- public double CalcularAreaCirculo(double radio)
+Invocación: double area = CalcularAreaCirculo(3.5);
+
+6- static string GenerarSaludo(string nombre)
+Invocación: string saludo = GenerarSaludo("Juan");
+
+7- public static int[] OrdenarArray(int[] array)
+Invocación: int[] arrayOrdenado = OrdenarArray(new int[] { 5, 2, 8, 1 });
+
+8- private static bool VerificarPrimo(int numero)
+Invocación: bool esPrimo = VerificarPrimo(17);
+
+9- public static void MostrarTablaMultiplicar(int numero)
+Invocación: MostrarTablaMultiplicar(7);
+
+10- protected static float CalcularInteres(float capital, float tasa, int tiempo)
+Invocación: float interes = CalcularInteres(1000f, 0.05f, 3);
+
+11- public static string FormatearNombre(string nombre, string apellido)
+Invocación: string nombreCompleto = FormatearNombre("María", "García");
+
+12- static int[] FiltrarNumerosPares(int[] numeros)
+Invocación: int[] pares = FiltrarNumerosPares(new int[] { 1, 2, 3, 4, 5 });
+
+13- private static void ImprimirPiramide(int niveles)
+Invocación: ImprimirPiramide(5);
+
+14- public static double CalcularPotencia(double base, int exponente)
+Invocación: double resultado = CalcularPotencia(2.5, 3);
+
+15- public static void CopiarArchivo(string origen, string destino)
+Invocación: CopiarArchivo("archivo.txt", "copia.txt");
+
+16- protected static bool ValidarEmail(string email)
+Invocación: bool esValido = ValidarEmail("usuario@dominio.com");
+
+17- public static int[] OrdenarDescendente(int[] array)
+Invocación: int[] descendente = OrdenarDescendente(new int[] { 10, 5, 8, 3 });
+
+18- static void ImprimirInverso(string texto)
+Invocación: ImprimirInverso("Hola");
+
+19- public static float ConvertirFahrenheitACelsius(float fahrenheit)
+Invocación: float celsius = ConvertirFahrenheitACelsius(98.6f);
+
+20- public static string ReemplazarEspacios(string texto)
+Invocación: string resultado = ReemplazarEspacios("Hola Mundo");
+
