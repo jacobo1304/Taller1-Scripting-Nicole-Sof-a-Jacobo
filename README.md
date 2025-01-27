@@ -96,38 +96,50 @@ internal class Program
    }
 }     
 ```
-    
+
+
 ## Cadenas (1)
-• 
-
-## Condicionales o ciclos (1)
-• 29. Usando un ciclo for, calcule el factorial de un número n, tenga en cuenta validar casos especiales.
-
-### Solución 
+• Lea una cadena de números enteros positivos y luego cree un array con los números de la cadena, se debe validar que la cadena obtenga números.
 ```c#
-class Program
+namespace Application
+{
+    class Program
     {
-        static void Main()
+        static int tamanocadena = 0;
+        static bool positivo = true;
+        static void Main(string[] args)
         {
-            Console.Write("Ingrese un número para calcular su factorial: ");
-            int n = int.Parse(Console.ReadLine());
-
-            if (n < 0)
+            
+            Console.WriteLine("Por favor ingrese el tamaño que quiere para su cadena de números");
+            int respuesta = int.Parse(Console.ReadLine());
+            tamanocadena = respuesta;
+            int[] cadena = new int[respuesta];
+            Console.WriteLine("Creaste una cadena de " + tamanocadena + " numeros ahora llenemosla");
+            for (int i = 0; i < cadena.Length; i++)
             {
-                Console.WriteLine("El factorial no está definido para números negativos.");
-                return;
+                positivo=true;
+                Console.WriteLine("Ingrese el numero " + (i+1) + " De la cadena: ");
+                while (positivo){
+                int numero = int.Parse(Console.ReadLine());
+                if (numero <=0){
+                    Console.WriteLine("por favor ingresa un número entero positivo");
+
+                }
+                else{
+                    cadena[i] = numero;
+                    positivo=false;
+                }
+                }
+              
+                
             }
-
-            long factorial = 1;
-
-            for (int i = 1; i <= n; i++)
+            Console.WriteLine("A continuación la cadena que ingresaste");
+            for (int i = 0; i < cadena.Length; i++)
             {
-                factorial *= i;
+                Console.Write(cadena[i] + " | ");
             }
-
-            Console.WriteLine("El factorial de " + n + " es " + factorial + ".");
-          
         }
+    
     }
 }
 ```
