@@ -222,7 +222,8 @@ namespace Application
 ```
 
 ## Condiciones o Ciclos (1)
-```
+```c#
+c
 class Program
     {
         static void Main()
