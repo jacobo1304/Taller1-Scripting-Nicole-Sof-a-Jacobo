@@ -297,7 +297,7 @@ Evalúa si ambas condiciones son verdaderas para ejecutar un bloque de código.
             Console.Write("Ingresa el día de la semana: ");
             string dia = Console.ReadLine();
 
-            if (hora >= 10 && hora <= 14 && dia == "Viernes")
+            if (hora >= 10 && hora <= 14 && dia == "Viernes" || dia == "viernes")
             {
                 Console.WriteLine("Debes estar en clase de Scripting");
             }
@@ -350,7 +350,7 @@ Compara si un valor es diferente de otro.
             Console.WriteLine("Ingresa las siglas de tu carrera:");
             string palabra = Console.ReadLine();
 
-            if (palabra != "ided")
+            if (palabra != "ided" && palabra != "IDED")
             {
                 Console.WriteLine("La palabra ingresada no es 'ided'.");
             }
