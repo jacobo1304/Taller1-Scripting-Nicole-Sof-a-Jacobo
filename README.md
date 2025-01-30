@@ -418,7 +418,7 @@ internal class Program
 ✦ Estas palabras son llamadas así porque tienen funciones específicas que el lenguaje interpreta para estructurar y ejecutar el código. No pueden usarse como nombres de variables u otros elementos, ya que el compilador las reconoce como comandos específicos asignadas a su propósito definido en el lenguaje.
 
 ## Firmas 
-### 1- Función sin parámetros y sin retorno - Muestra un mensaje en la consola
+### 1- Sin parámetros y sin retorno
 
 Descripción:
 Esta función simplemente muestra un mensaje en la consola
@@ -431,7 +431,7 @@ public static void SaludarAlumnos()
 ```c#
 SaludarAlumnos();
 ```
-### 2- Función con parámetros y con retorno
+### 2- Con parámetros y con retorno
 
 Descripción:
 Suma dos números enteros y devuelve el resultado.
@@ -444,7 +444,7 @@ public static int Sumar(int a, int b)
 ```c#
 int resultado = Sumar(5, 7);
 ```
-### 3- Función con parámetros y sin retorno
+### 3- Con parámetros y sin retorno
 Descripción:
 Recibe un nombre y lo imprime en pantalla.
 
@@ -456,7 +456,7 @@ public static void MostrarNombre(string nombre)
 ```c#
 MostrarNombre("Marco Solis");
 ```
-### 4- Función que devuelve un arreglo
+### 4- Devuelve un arreglo
 Descripción:
 Genera un arreglo con los primeros n números pares.
 
@@ -469,17 +469,64 @@ public static int[] GenerarNumerosPares(int cantidad)
 int[] pares = GenerarNumerosPares(5);
 ```
 
-### 5- 
+### 5- Sin retorno que imprime la fecha y hora actual
+Descripción:
+Imprime la fecha y hora actual en la consola.
 
-
-
-
-
-
-
-```
+#### Firma:
 ```c#
+public static void MostrarFechaHoraActual()
 ```
+#### Invocación:
+```c#
+MostrarFechaHoraActual();
+```
+
+### 6- Invierte una cadena de texto
+Descripción:
+Recibe un texto y devuelve el mismo texto pero al revés.
+
+#### Firma:
+```c#
+static string InvertirCadena(string texto)
+```
+#### Invocación:
+```c#
+string invertido = InvertirCadena("Scripting");
+```
+### 7- Cuenta los elementos de un array
+Descripción:
+Recibe un array de enteros y devuelve la cantidad de elementos en él.
+
+#### Firma:
+```c#
+private static int ContarElementosArray(int[] array)
+```
+#### Invocación:
+```c#
+int cantidad = ContarElementosArray(new int[] { 1, 2, 3, 4, 5 });
+```
+
+### 8- Concatena dos cadenas
+Descripción:
+Recibe un array de enteros y devuelve la cantidad de elementos en él.
+
+#### Firma:
+```c#
+protected static string ConcatenarTexto(string texto1, string texto2)
+```
+#### Invocación:
+```c#
+string resultado = ConcatenarTexto("Taller", "Repaso");
+```
+
+
+
+
+
+
+
+
 1- public static int CalcularSuma(int x, int y)
 
 Invocación: int resultado = CalcularSuma(5, 10);
