@@ -140,38 +140,39 @@ namespace Application
 
 ### Solución 
 ```c#
-internal class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-           int columnas = 0;
+            int columnas = 0;
 
- 
-       Console.WriteLine("Bienvenido al creador de matrices 3xn, cuantas columnas le quieres dar a la matriz?");
-       columnas = int.Parse(Console.ReadLine());
-       int[,] matriz = new int[3, columnas];
-       Console.WriteLine("LLenemos esa matriz " + 3 + "x"+columnas);
-       for (int i = 0; i < matriz.GetLength(0); i++) 
-       {
-           for (int j = 0; j < matriz.GetLength(1); j++)
-           {
-               Console.WriteLine("Ingrese el numero para la fila " + (i+1) + " y la columna " + (j+1));
-               int numero = int.Parse(Console.ReadLine());
-               matriz[i, j] = numero;
-           }
-       }
-       Console.WriteLine("Ahora vamos a mostrar 3 arreglos con los numeros que llenaste, el arreglo serán las filas de esta matriz:");
-       for(int i = 0;i < matriz.GetLength(0); i++)
-       {
-           Console.WriteLine();
-           Console.WriteLine("Fila numero " + (i+1));
-           for(int j = 0;j < matriz.GetLength(1); j++)
-           {
-               Console.Write(matriz[i, j] + " | ");                  
-           }
-       }
-   }
-}     
+
+            Console.WriteLine("Bienvenido al creador de matrices 3xn, cuantas columnas le quieres dar a la matriz?");
+            columnas = int.Parse(Console.ReadLine());
+            int[,] matriz = new int[3, columnas];
+            Console.WriteLine("LLenemos esa matriz " + 3 + "x" + columnas);
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.WriteLine("Ingrese el numero para la fila " + (i + 1) + " y la columna " + (j + 1));
+                    int numero = int.Parse(Console.ReadLine());
+                    matriz[i, j] = numero;
+                }
+            }
+            Console.WriteLine("Ahora vamos a mostrar 3 arreglos con los numeros que llenaste, el arreglo serán las filas de esta matriz:");
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Fila numero " + (i + 1));
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.Write(matriz[i, j] + " | ");
+                }
+            }
+        }
+    }
+}
 ```
 
 
@@ -222,8 +223,8 @@ namespace Application
 ```
 
 ## Condiciones o Ciclos (1)
+• 29. Usando un ciclo for, calcule el factorial de un número n, tenga en cuenta validar los casos especiales.
 ```c#
-c
 class Program
     {
         static void Main()
@@ -286,12 +287,12 @@ Compara si dos valores son exactamente iguales.
 Evalúa si ambas condiciones son verdaderas para ejecutar un bloque de código.
 
 ```c#
-    internal class Program
+       internal class Program
     {
         static void Main(string[] args)
         {
             //Operador &&
-            Console.Write("Ingresa la hora (24h): ");
+            Console.Write("Ingresa la hora formato 24h (sin minutos): ");
             int hora = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Ingresa el día de la semana: ");
