@@ -222,6 +222,33 @@ namespace Application
 ```
 
 ## Condiciones o Ciclos (1)
+```
+class Program
+    {
+        static void Main()
+        {
+            Console.Write("Ingrese un número para calcular su factorial: ");
+            int n = int.Parse(Console.ReadLine());
+
+            if (n < 0)
+            {
+                Console.WriteLine("El factorial no está definido para números negativos.");
+                return;
+            }
+
+            long factorial = 1;
+
+            for (int i = 1; i <= n; i++)
+            {
+                factorial *= i;
+            }
+
+            Console.WriteLine("El factorial de " + n + " es " + factorial + ".");
+          
+        }
+    }
+}
+```
     
 ## Teoría (2)
 • 12. Realice 5 condicionales usando los diferentes operadores.
