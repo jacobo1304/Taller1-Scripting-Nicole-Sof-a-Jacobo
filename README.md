@@ -520,10 +520,31 @@ protected static string ConcatenarTexto(string texto1, string texto2)
 string resultado = ConcatenarTexto("Taller", "Repaso");
 ```
 
+### 9- Valida si un string es un número entero
+Descripción:
+Recibe un array de enteros y devuelve la cantidad de elementos en él.
 
+#### Firma:
+```c#
+protected static bool EsNumeroEntero(string texto)
+```
+#### Invocación:
+```c#
+bool valido = EsNumeroEntero("1234");
+```
 
+### 10- Valida si un string es un número entero
+Descripción:
+Recibe un array de enteros y devuelve la cantidad de elementos en él.
 
-
+#### Firma:
+```c#
+protected static bool EsNumeroEntero(string texto)
+```
+#### Invocación:
+```c#
+bool valido = EsNumeroEntero("1234");
+```
 
 
 
