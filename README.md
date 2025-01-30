@@ -287,7 +287,7 @@ Compara si dos valores son exactamente iguales.
 Evalúa si ambas condiciones son verdaderas para ejecutar un bloque de código.
 
 ```c#
-       internal class Program
+internal class Program
     {
         static void Main(string[] args)
         {
@@ -344,7 +344,7 @@ internal class Program
 Compara si un valor es diferente de otro.
 
 ```c#
-    internal class Program
+internal class Program
     {
         static void Main(string[] args)
         {
@@ -353,11 +353,11 @@ Compara si un valor es diferente de otro.
 
             if (palabra != "ided" && palabra != "IDED")
             {
-                Console.WriteLine("La palabra ingresada no es 'ided'.");
+                Console.WriteLine("Estudias una carrera distinta a IDED");
             }
             else
             {
-                Console.WriteLine("La palabra ingresada es 'ided'.");
+                Console.WriteLine("Estudias IDED, eres lo máximo");
             }
         }
     }
@@ -368,7 +368,7 @@ Compara si un valor es diferente de otro.
 #### Operador || (OR lógico)
 Evalúa si al menos una de dos condiciones es verdadera.
 ```c#
-       internal class Program
+internal class Program
     {
         static void Main(string[] args)
         {
