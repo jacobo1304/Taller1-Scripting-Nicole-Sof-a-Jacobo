@@ -99,7 +99,7 @@ internal class Program
 
 
 ## Cadenas (1)
-• Lea una cadena de números enteros positivos y luego cree un array con los números de la cadena, se debe validar que la cadena obtenga números.
+• 7. Lea una cadena de números enteros positivos y luego cree un array con los números de la cadena, se debe validar que la cadena obtenga números.
 ```c#
 namespace Application
 {
