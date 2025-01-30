@@ -15,7 +15,84 @@
 
 ## Funciones (2)
 • 11. Cree un menú infinito con 3 opciones para realizar operaciones sencillas. 
+```c#
+namespace Application
+{
+    class Program
+    {
+       static void Main(string[] args)
+        {
+            
+            bool bandera = true;
+            while (bandera){
+                Console.Clear();
+                bandera = false;
+            Console.WriteLine("Bienvenido a la mini calculadora selecciona una de las 3 operaciones que desees realizar");
+            Console.WriteLine("1. Suma ");
+            Console.WriteLine("2. Resta ");
+            Console.WriteLine("3. Multiplicación ");
+            Console.WriteLine("0. Salir ");
+              Console.Write("Selecciona una opción: ");
+            int input = int.Parse(Console.ReadLine());
+           if(input > 3 || input < 0){
+            Console.WriteLine("Selecciona una opcion válida");
+            bandera = true;
+           }
+           switch(input){
+        case 1:
+            Console.Clear();
+            Console.WriteLine("A sumar! ingresa el primer numero");
+            double numero1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Ingresa el segundo numero");
+            double numero2 = double.Parse(Console.ReadLine());
+            double resultado = Suma(numero1, numero2);
+            Console.WriteLine("El resultado es " + resultado);
+            break;
+            
+        case 2:
+        Console.Clear();
+            Console.WriteLine("A restar! ingresa el primer numero");
+            numero1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Ingresa el segundo numero");
+            numero2 = double.Parse(Console.ReadLine());
+            resultado = Resta(numero1, numero2);
+            Console.WriteLine("El resultado es " + resultado);
+            break;
 
+        case 3:
+            Console.Clear();
+            Console.WriteLine("A multiplicar! ingresa el primer numero");
+            numero1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Ingresa el segundo numero");
+            numero2 = double.Parse(Console.ReadLine());
+            resultado = Multiplicacion(numero1, numero2);
+            Console.WriteLine("El resultado es " + resultado);
+            break;
+
+        case 0:
+            bandera = false;
+            break;
+    }
+    if (input != 0) {
+    Console.WriteLine("Presiona cualquier tecla para volver al menú...");
+    Console.ReadKey();
+    bandera = true;
+}
+            }
+           
+    }
+    static double Suma(double a, double b){
+        return a+b;
+    }
+   static double Resta(double a, double b){
+        return a-b;
+    }
+ static   double Multiplicacion(double a, double b){
+        return a*b;
+    }
+    }
+}
+```
 • 18. Realice una función, que lea un número de máximo 8 cifras y luego sume cada dígito hasta obtener un valor de un solo dígito.
 
 ### Solución 
