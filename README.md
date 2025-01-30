@@ -418,46 +418,60 @@ internal class Program
 ✦ Estas palabras son llamadas así porque tienen funciones específicas que el lenguaje interpreta para estructurar y ejecutar el código. No pueden usarse como nombres de variables u otros elementos, ya que el compilador las reconoce como comandos específicos asignadas a su propósito definido en el lenguaje.
 
 ## Firmas 
-```c#
-1- Función sin parámetros y sin retorno - Muestra un mensaje en la consola
+### 1- Función sin parámetros y sin retorno - Muestra un mensaje en la consola
+
 Descripción:
 Esta función simplemente muestra un mensaje en la consola
-Firma:
-public static void SaludarAlumnos() 
-Invocación:
+
+#### Firma:
+```c#
+public static void SaludarAlumnos()
+```
+#### Invocación:
+```c#
 SaludarAlumnos();
 ```
-```c#
-2- Función con parámetros y con retorno
+### 2- Función con parámetros y con retorno
+
 Descripción:
 Suma dos números enteros y devuelve el resultado.
-Firma:
+
+#### Firma:
+```c#
 public static int Sumar(int a, int b)
-Invocación:
+```
+#### Invocación:
+```c#
 int resultado = Sumar(5, 7);
 ```
-```c#
-3- Función con parámetros y sin retorno
+### 3- Función con parámetros y sin retorno
 Descripción:
 Recibe un nombre y lo imprime en pantalla.
-Firma:
+
+#### Firma:
+```c#
 public static void MostrarNombre(string nombre)
-Invocación:
+```
+#### Invocación:
+```c#
 MostrarNombre("Marco Solis");
 ```
-```c#
-4- Función que devuelve un arreglo
+### 4- Función que devuelve un arreglo
 Descripción:
 Genera un arreglo con los primeros n números pares.
-Firma:
+
+#### Firma:
+```c#
 public static int[] GenerarNumerosPares(int cantidad)
-Invocación:
+```
+#### Invocación:
+```c#
 int[] pares = GenerarNumerosPares(5);
 ```
-```c#
-5- 
 
-```
+### 5- 
+
+
 
 
 
