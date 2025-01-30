@@ -220,6 +220,8 @@ namespace Application
     }
 }
 ```
+
+## Condiciones o Ciclos (1)
     
 ## Teoría (2)
 • 12. Realice 5 condicionales usando los diferentes operadores.
