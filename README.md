@@ -509,7 +509,7 @@ int cantidad = ContarElementosArray(new int[] { 1, 2, 3, 4, 5 });
 
 ### 8- Concatena dos cadenas
 Descripción:
-Recibe un array de enteros y devuelve la cantidad de elementos en él.
+Une dos cadenas de texto en una sola y la retorna.
 
 #### Firma:
 ```c#
@@ -522,7 +522,7 @@ string resultado = ConcatenarTexto("Taller", "Repaso");
 
 ### 9- Valida si un string es un número entero
 Descripción:
-Recibe un array de enteros y devuelve la cantidad de elementos en él.
+Devuelve true si el string es un número entero válido.
 
 #### Firma:
 ```c#
@@ -533,98 +533,56 @@ protected static bool EsNumeroEntero(string texto)
 bool valido = EsNumeroEntero("1234");
 ```
 
-### 10- Valida si un string es un número entero
+### 10- Muestra los elementos de una lista
 Descripción:
-Recibe un array de enteros y devuelve la cantidad de elementos en él.
+Este método recibe un arreglo de cadenas e imprime cada elemento en una nueva línea.
 
 #### Firma:
 ```c#
-protected static bool EsNumeroEntero(string texto)
+public static void MostrarLista(string[] elementos)
 ```
 #### Invocación:
 ```c#
-bool valido = EsNumeroEntero("1234");
+MostrarLista(new string[] { "Sofía", "Nicole", "Jacobo" });
 ```
 
+### 11- Obtener la primera letra de una palabra
+Descripción:
+Este método devuelve la primera letra de la palabra proporcionada.
 
+#### Firma:
+```c#
+public static void MostrarLista(string[] elementos)
+```
+#### Invocación:
+```c#
+MostrarLista(new string[] { "Sofía", "Nicole", "Jacobo" });
+```
 
-1- public static int CalcularSuma(int x, int y)
+### 12- Dibujar un cuadrado de asteriscos
+Descripción:
+Este método imprime en pantalla un cuadrado de asteriscos con el tamaño dado.
 
-Invocación: int resultado = CalcularSuma(5, 10);
+#### Firma:
+```c#
+static void DibujarCuadrado(int tamaño)
+```
+#### Invocación:
+```c#
+DibujarCuadrado(5);
+```
 
-2- private float CalcularPromedio(float[] numeros)
+### 13- Dibujar un cuadrado de asteriscos
+Descripción:
+Este método imprime en pantalla un cuadrado de asteriscos con el tamaño dado.
 
-Invocación: float promedio = CalcularPromedio(new float[] { 3.5f, 4.8f, 6.2f });
+#### Firma:
+```c#
+static void DibujarCuadrado(int tamaño)
+```
+#### Invocación:
+```c#
+DibujarCuadrado(5);
+```
 
-3- protected static void ImprimirMensaje(string mensaje)
-
-Invocación: ImprimirMensaje("Hola, mundo!");
-
-4- public static long CalcularFactorial(int n)
-
-Invocación: long factorial = CalcularFactorial(10);
-
-5- public double CalcularAreaCirculo(double radio)
-
-Invocación: double area = CalcularAreaCirculo(3.5);
-
-6- static string GenerarSaludo(string nombre)
-
-Invocación: string saludo = GenerarSaludo("Juan");
-
-7- public static int[] OrdenarArray(int[] array)
-
-Invocación: int[] arrayOrdenado = OrdenarArray(new int[] { 5, 2, 8, 1 });
-
-8- private static bool VerificarPrimo(int numero)
-
-Invocación: bool esPrimo = VerificarPrimo(17);
-
-9- public static void MostrarTablaMultiplicar(int numero)
-
-Invocación: MostrarTablaMultiplicar(7);
-
-10- protected static float CalcularInteres(float capital, float tasa, int tiempo)
-
-Invocación: float interes = CalcularInteres(1000f, 0.05f, 3);
-
-11- public static string FormatearNombre(string nombre, string apellido)
-
-Invocación: string nombreCompleto = FormatearNombre("María", "García");
-
-12- static int[] FiltrarNumerosPares(int[] numeros)
-
-Invocación: int[] pares = FiltrarNumerosPares(new int[] { 1, 2, 3, 4, 5 });
-
-13- private static void ImprimirPiramide(int niveles)
-
-Invocación: ImprimirPiramide(5);
-
-14- public static double CalcularPotencia(double base, int exponente)
-
-Invocación: double resultado = CalcularPotencia(2.5, 3);
-
-15- public static void CopiarArchivo(string origen, string destino)
-
-Invocación: CopiarArchivo("archivo.txt", "copia.txt");
-
-16- protected static bool ValidarEmail(string email)
-
-Invocación: bool esValido = ValidarEmail("ided@upb.com");
-
-17- public static int[] OrdenarDescendente(int[] array)
-
-Invocación: int[] descendente = OrdenarDescendente(new int[] { 10, 5, 8, 3 });
-
-18- static void ImprimirInverso(string texto)
-
-Invocación: ImprimirInverso("Hola");
-
-19- public static float ConvertirFahrenheitACelsius(float fahrenheit)
-
-Invocación: float celsius = ConvertirFahrenheitACelsius(98.6f);
-
-20- public static string ReemplazarEspacios(string texto)
-
-Invocación: string resultado = ReemplazarEspacios("Hola Mundo");
 
