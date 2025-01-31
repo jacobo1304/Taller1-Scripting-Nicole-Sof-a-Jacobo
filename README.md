@@ -626,15 +626,55 @@ private static int LanzarDado()
 int resultado = LanzarDado();
 ```
 
-### 17- Simular el lanzamiento de un dado
+### 17- Eliminar elementos duplicados en una lista
 Descripción:
-Genera un número aleatorio entre 1 y 6
+Recibe una lista de enteros y elimina los duplicados
 
 #### Firma:
 ```c#
-private static int LanzarDado()
+private static void EliminarDuplicados(List<int> numeros)
 ```
 #### Invocación:
 ```c#
-int resultado = LanzarDado();
+List<int> lista = new List<int> { 1, 2, 2, 3, 4, 4, 5 };
+EliminarDuplicados(lista);
+```
+
+### 18- Generar un número aleatorio en un rango
+Descripción:
+Genera un número aleatorio entre el valor mínimo y máximo especificados
+
+#### Firma:
+```c#
+public static int GenerarNumeroAleatorio(int min, int max)
+```
+#### Invocación:
+```c#
+int numero = GenerarNumeroAleatorio(1, 100);
+```
+
+### 19- Generar un número aleatorio en un rango
+Descripción:
+Genera una lista con los primeros n números de la secuencia Fibonacci
+
+#### Firma:
+```c#
+public static List<int> GenerarFibonacci(int n)
+```
+#### Invocación:
+```c#
+List<int> fibonacci = GenerarFibonacci(6);
+```
+
+### 20- Calcula la potencia de un número
+Descripción:
+Recibe una base y un exponente, y calcula la potencia.
+
+#### Firma:
+```c#
+static double CalcularPotencia(double base, int exponente)
+```
+#### Invocación:
+```c#
+double potencia = CalcularPotencia(2, 3);
 ```
