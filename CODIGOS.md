@@ -19,7 +19,7 @@
 
 #### Funciones (2)
 - *11. Cree un menú infinito con 3 opciones para realizar operaciones sencillas.*
-#### Solución 
+##### Solución 
 
 ```c#
 namespace Application
@@ -101,7 +101,7 @@ namespace Application
 ```
 - *18. Realice una función, que lea un número de máximo 8 cifras y luego sume cada dígito hasta obtener un valor de un solo dígito.* 
 
-#### Solución 
+##### Solución 
 ```c#
     internal class Program
     {
@@ -142,9 +142,9 @@ namespace Application
 ```
 
 #### Arreglos o matrices (1)
-- * 10. Lea una matriz 3D, luego cree 3 arreglos a partir de la matriz leída.* 
+- *10. Lea una matriz 3D, luego cree 3 arreglos a partir de la matriz leída.* 
 
-#### Solución 
+##### Solución 
 ```c#
     internal class Program
     {
@@ -183,9 +183,9 @@ namespace Application
 
 
 #### Cadenas (1)
-- * 7. Lea una cadena de números enteros positivos y luego cree un array con los números de la cadena, se debe validar que la cadena obtenga números.*
+- *7. Lea una cadena de números enteros positivos y luego cree un array con los números de la cadena, se debe validar que la cadena obtenga números.*
+##### Solución
 ```c#
-#### Solución
 namespace Application
 {
     class Program
@@ -229,8 +229,9 @@ namespace Application
 }
 ```
 
-## Condiciones o Ciclos (1)
-• 29. Usando un ciclo for, calcule el factorial de un número n, tenga en cuenta validar los casos especiales.
+#### Condiciones o Ciclos (1)
+- *29. Usando un ciclo for, calcule el factorial de un número n, tenga en cuenta validar los casos especiales.*
+##### Solución
 ```c#
 class Program
     {
@@ -259,12 +260,10 @@ class Program
 }
 ```
     
-## Teoría (2)
-• 12. Realice 5 condicionales usando los diferentes operadores.
-
-### Solución 
-
-#### Operador == (igualdad)
+#### Teoría (2)
+- *12. Realice 5 condicionales usando los diferentes operadores.*
+##### Solución 
+**Operador == (igualdad)**
 Compara si dos valores son exactamente iguales.
 
 ```c#
@@ -290,7 +289,7 @@ Compara si dos valores son exactamente iguales.
     }
 }
 ```
-#### Operador && (y lógico)
+**Operador && (y lógico)**
 Evalúa si ambas condiciones son verdaderas para ejecutar un bloque de código.
 
 ```c#
@@ -317,7 +316,7 @@ internal class Program
     }
 }
 ```
-#### Operador >= o < (Mayor o igual que - Menor)
+**Operador >= o < (Mayor o igual que - Menor)**
 Verifica si un valor es mayor o igual a otro o compara si un valor es estrictamente menor que otro.
 
 ```c#
@@ -347,7 +346,7 @@ internal class Program
     }
 }
 ```
-#### Operador != (Diferente de)
+**Operador != (Diferente de)**
 Compara si un valor es diferente de otro.
 
 ```c#
@@ -372,7 +371,7 @@ internal class Program
 ```
 
 
-#### Operador || (OR lógico)
+**Operador || (OR lógico)**
 Evalúa si al menos una de dos condiciones es verdadera.
 ```c#
 internal class Program
@@ -396,9 +395,9 @@ internal class Program
 }
 
 ```
-• 7. Escriba 10 palabras reservadas
+- *7. Escriba 10 palabras reservadas*
 
-### Solución 
+##### Solución 
 
 1- int: Define variables de tipo entero.
 
