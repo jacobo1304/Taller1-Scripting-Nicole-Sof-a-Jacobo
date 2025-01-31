@@ -7,15 +7,15 @@
 
 ### 1- Realizar cinco programas y responder dos preguntas de teoría.
 
-➨ 2 sobre uso de funciones
+- 2 sobre uso de funciones
 
-➨ 1 sobre arreglos o matrices
+- 1 sobre arreglos o matrices
 
-➨ 1 sobre cadenas
+- 1 sobre cadenas
 
-➨ 1 sobre condiciones o ciclos
+- 1 sobre condiciones o ciclos
 
-➨ 2 preguntas de teoría
+- 2 preguntas de teoría
 
 #### Funciones (2)
 - *11. Cree un menú infinito con 3 opciones para realizar operaciones sencillas.*
@@ -263,8 +263,7 @@ class Program
 #### Teoría (2)
 - *12. Realice 5 condicionales usando los diferentes operadores.*
 ##### Solución 
-**Operador == (igualdad)**
-Compara si dos valores son exactamente iguales.
+**Operador == (igualdad)**: Compara si dos valores son exactamente iguales.
 
 ```c#
     internal class Program
@@ -289,8 +288,7 @@ Compara si dos valores son exactamente iguales.
     }
 }
 ```
-**Operador && (y lógico)**
-Evalúa si ambas condiciones son verdaderas para ejecutar un bloque de código.
+**Operador && (y lógico)**: Evalúa si ambas condiciones son verdaderas para ejecutar un bloque de código.
 
 ```c#
 internal class Program
@@ -316,8 +314,7 @@ internal class Program
     }
 }
 ```
-**Operador >= o < (Mayor o igual que - Menor)**
-Verifica si un valor es mayor o igual a otro o compara si un valor es estrictamente menor que otro.
+**Operador >= o < (Mayor o igual que - Menor)**: Verifica si un valor es mayor o igual a otro o compara si un valor es estrictamente menor que otro.
 
 ```c#
 internal class Program
@@ -346,8 +343,7 @@ internal class Program
     }
 }
 ```
-**Operador != (Diferente de)**
-Compara si un valor es diferente de otro.
+**Operador != (Diferente de)**: Compara si un valor es diferente de otro.
 
 ```c#
 internal class Program
@@ -371,8 +367,7 @@ internal class Program
 ```
 
 
-**Operador || (OR lógico)**
-Evalúa si al menos una de dos condiciones es verdadera.
+**Operador || (OR lógico)**: Evalúa si al menos una de dos condiciones es verdadera.
 ```c#
 internal class Program
     {
@@ -396,14 +391,13 @@ internal class Program
 
 ```
 - *7. Escriba 10 palabras reservadas*
-
 ##### Solución 
 
-1- int: Define variables de tipo entero.
+**1-** int: Define variables de tipo entero.
 
-2- if: Establece una condición.
+**2-** if: Establece una condición.
 
-3- else: Define qué hacer si la condición no se cumple.
+**3-** else: Define qué hacer si la condición no se cumple.
 
 4- for: Crea un bucle controlado por un contador.
 
