@@ -658,5 +658,10 @@ static double CalcularPotencia(double base, int exponente)
 ```c#
 double potencia = CalcularPotencia(2, 3);
 ```
-## https://es.educaplay.com/recursos-educativos/22138910-funciones_y_metodos.html
+
+#### Actividad Funciones
+- https://es.educaplay.com/recursos-educativos/22138910-funciones_y_metodos.html
+
+![Captura de pantalla 2025-01-31 110628](https://github.com/user-attachments/assets/c402f598-fe07-43cf-ab83-069855863565)
+
 
