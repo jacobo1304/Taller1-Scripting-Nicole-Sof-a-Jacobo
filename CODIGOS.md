@@ -658,5 +658,5 @@ static double CalcularPotencia(double base, int exponente)
 ```c#
 double potencia = CalcularPotencia(2, 3);
 ```
-## 2. Preparar una actividad, donde por medio de interacción con el grupo, se practique el concepto de función, recuerde que es lo mismo que un módulo o un método.
+## https://es.educaplay.com/recursos-educativos/22138910-funciones_y_metodos.html
 
