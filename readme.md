@@ -23,3 +23,6 @@
  
 ## 4- Realizar 20 firmas diferentes de funciones con sus respectivas invocaciones.
 
+## 5- Participa del programa exquisito, escribiendo líneas de código en el programa colaborativo.
+
+## 6- Conclusiones y bibliografía.
