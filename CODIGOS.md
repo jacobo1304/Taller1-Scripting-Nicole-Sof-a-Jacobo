@@ -1,9 +1,11 @@
 # Taller 1: Repaso Scripting
 
 ## Integrantes: 
-Sofía Caraballo, Jacobo Rodríguez, Nicole Livingston
+- Sofía Caraballo
+- Jacobo Rodríguez
+- Nicole Livingston
 
-## 1. Escoja 7 enunciados: 
+### 1- Realizar cinco programas y responder dos preguntas de teoría.
 
 ➨ 2 sobre uso de funciones
 
@@ -15,8 +17,10 @@ Sofía Caraballo, Jacobo Rodríguez, Nicole Livingston
 
 ➨ 2 preguntas de teoría
 
-## Funciones (2)
-• 11. Cree un menú infinito con 3 opciones para realizar operaciones sencillas. 
+#### Funciones (2)
+- *11. Cree un menú infinito con 3 opciones para realizar operaciones sencillas.*
+#### Solución 
+
 ```c#
 namespace Application
 {
@@ -95,9 +99,9 @@ namespace Application
     }
 }
 ```
-• 18. Realice una función, que lea un número de máximo 8 cifras y luego sume cada dígito hasta obtener un valor de un solo dígito.
+- *18. Realice una función, que lea un número de máximo 8 cifras y luego sume cada dígito hasta obtener un valor de un solo dígito.* 
 
-### Solución 
+#### Solución 
 ```c#
     internal class Program
     {
@@ -137,10 +141,10 @@ namespace Application
 }
 ```
 
-## Arreglos o matrices (1)
-• 10. Lea una matriz 3D, luego cree 3 arreglos a partir de la matriz leída
+#### Arreglos o matrices (1)
+- * 10. Lea una matriz 3D, luego cree 3 arreglos a partir de la matriz leída.* 
 
-### Solución 
+#### Solución 
 ```c#
     internal class Program
     {
@@ -178,9 +182,10 @@ namespace Application
 ```
 
 
-## Cadenas (1)
-• 7. Lea una cadena de números enteros positivos y luego cree un array con los números de la cadena, se debe validar que la cadena obtenga números.
+#### Cadenas (1)
+- * 7. Lea una cadena de números enteros positivos y luego cree un array con los números de la cadena, se debe validar que la cadena obtenga números.*
 ```c#
+#### Solución
 namespace Application
 {
     class Program
