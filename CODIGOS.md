@@ -83,6 +83,10 @@ namespace Application
     }
 }
 ```
+
+![Funciones1](https://github.com/user-attachments/assets/e2cffb5f-abd8-4601-be4a-d494be985783)
+
+
 - *18. Realice una función, que lea un número de máximo 8 cifras y luego sume cada dígito hasta obtener un valor de un solo dígito.* 
 
 ##### Solución 
@@ -125,6 +129,9 @@ namespace Application
 }
 ```
 
+![Funciones2](https://github.com/user-attachments/assets/8f68f5eb-3f64-42f2-ac2d-7eca7a44afd0)
+
+
 #### Arreglos o matrices (1)
 - *10. Lea una matriz 3D, luego cree 3 arreglos a partir de la matriz leída.* 
 
@@ -164,6 +171,8 @@ namespace Application
     }
 }
 ```
+
+![Matriz1](https://github.com/user-attachments/assets/5d3204f0-4946-4842-bc9c-51541fd60242)
 
 
 #### Cadenas (1)
@@ -213,6 +222,9 @@ namespace Application
 }
 ```
 
+![Cadena1](https://github.com/user-attachments/assets/56aeb0d5-757c-4453-a142-2d1700291d43)
+
+
 #### Condiciones o Ciclos (1)
 - *29. Usando un ciclo for, calcule el factorial de un número n, tenga en cuenta validar los casos especiales.*
 ##### Solución
@@ -243,6 +255,9 @@ class Program
     }
 }
 ```
+
+![Ciclos1](https://github.com/user-attachments/assets/9f7d5dcc-ed2f-428b-9b6d-f127fa9e6c8e)
+
     
 #### Teoría (2)
 - *12. Realice 5 condicionales usando los diferentes operadores.*
@@ -272,6 +287,10 @@ class Program
     }
 }
 ```
+
+![Operador1](https://github.com/user-attachments/assets/2d0f4ce1-c2db-4af3-855e-85d774d330b3)
+
+
 **Operador && (y lógico)**: Evalúa si ambas condiciones son verdaderas para ejecutar un bloque de código.
 
 ```c#
@@ -298,6 +317,10 @@ internal class Program
     }
 }
 ```
+
+![Operador2](https://github.com/user-attachments/assets/03d0adaf-7d56-4174-bb55-562331aad3fc)
+
+
 **Operador >= o < (Mayor o igual que - Menor)**: Verifica si un valor es mayor o igual a otro o compara si un valor es estrictamente menor que otro.
 
 ```c#
@@ -327,6 +350,10 @@ internal class Program
     }
 }
 ```
+
+![Operador3](https://github.com/user-attachments/assets/65db89df-81c9-4f70-8cae-00eee2a64480)
+
+
 **Operador != (Diferente de)**: Compara si un valor es diferente de otro.
 
 ```c#
@@ -349,6 +376,8 @@ internal class Program
     }
 }
 ```
+
+![Operador4](https://github.com/user-attachments/assets/b5ddd274-b80f-49cc-84f9-72f3439a57b9)
 
 
 **Operador || (OR lógico)**: Evalúa si al menos una de dos condiciones es verdadera.
@@ -374,6 +403,10 @@ internal class Program
 }
 
 ```
+
+![Operador5](https://github.com/user-attachments/assets/7b8796bf-276b-447e-8f28-1e3ab4c045f2)
+
+
 - *7. Escriba 10 palabras reservadas*
 ##### Solución 
 
