@@ -682,5 +682,9 @@ double potencia = CalcularPotencia(2, 3);
 
 - **1. Variedad de ejercicios**: Cubrimos múltiples tipos de ejercicios, tales como funciones, arreglos, matrices, cadenas, ciclos y operadores, hecho que nos permitió repasar los conceptos previos y reforzar otros que no conocíamos.  
 - **2. Validación de datos**: El ejercicio nos ayudó a entender la importancia de validar los programas propuestos más de una vez, ya que corroborar esto es indispensable para reconocer errores o en otros casos, maneras de optimizar el código del programa.  
-- 3. **Modularidad**: Nos sirvió mucho trabajar el código por partes y así ir probando las mismas, pues, estas fases permiten que identifiquemos con mayor facilidad lo que estamos construyendo, entenderlo y acoplarlo para lograr una unidad estructurada.
-- 4. **Teoría y práctica**: Combinar los conceptos teóricos con ejercicios prácticos nos sirvió para reforzar el aprendizaje, ya que no comprender alguno de estos dos items implicaba una búsqueda donde de una u otra manera ahondabamos en el significado o su línea de código según el respectivo caso.
+- **3. Modularidad**: Nos sirvió mucho trabajar el código por partes y así ir probando las mismas, pues, estas fases permiten que identifiquemos con mayor facilidad lo que estamos construyendo, entenderlo y acoplarlo para lograr una unidad estructurada.
+- **4. Teoría y práctica**: Combinar los conceptos teóricos con ejercicios prácticos nos sirvió para reforzar el aprendizaje, ya que no comprender alguno de estos dos items implicaba una búsqueda donde de una u otra manera ahondabamos en el significado o su línea de código según el respectivo caso.
+
+
+#### Recursos bibliográficos
+
