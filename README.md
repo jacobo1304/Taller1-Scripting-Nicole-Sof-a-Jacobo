@@ -1,5 +1,4 @@
 # Taller1-Scripting-Nicole-Sofia-Jacobo
-# Taller-1-Scripting
 
 ## 1. Escoja 7 enunciados: 
 
@@ -546,20 +545,7 @@ public static void MostrarLista(string[] elementos)
 MostrarLista(new string[] { "Sofía", "Nicole", "Jacobo" });
 ```
 
-### 11- Obtener la primera letra de una palabra
-Descripción:
-Este método devuelve la primera letra de la palabra proporcionada.
-
-#### Firma:
-```c#
-public static void MostrarLista(string[] elementos)
-```
-#### Invocación:
-```c#
-MostrarLista(new string[] { "Sofía", "Nicole", "Jacobo" });
-```
-
-### 12- Dibujar un cuadrado de asteriscos
+### 11- Dibujar un cuadrado de asteriscos
 Descripción:
 Este método imprime en pantalla un cuadrado de asteriscos con el tamaño dado.
 
@@ -572,17 +558,42 @@ static void DibujarCuadrado(int tamaño)
 DibujarCuadrado(5);
 ```
 
-### 13- Dibujar un cuadrado de asteriscos
+### 12- Eliminar espacios de una cadena
 Descripción:
-Este método imprime en pantalla un cuadrado de asteriscos con el tamaño dado.
+Devuelve una cadena sin espacios en blanco.
 
 #### Firma:
 ```c#
-static void DibujarCuadrado(int tamaño)
+public static string EliminarEspacios(string texto)
 ```
 #### Invocación:
 ```c#
-DibujarCuadrado(5);
+string resultado = EliminarEspacios("Quiero Dormir");
 ```
 
+### 13- Calcular la hipotenusa de un triángulo
+Descripción:
+Calcula la hipotenusa de un triángulo usando el Teorema de Pitágoras
+
+#### Firma:
+```c#
+protected static double CalcularHipotenusa(double cateto1, double cateto2)
+```
+#### Invocación:
+```c#
+double hipotenusa = CalcularHipotenusa(3.0, 4.0);
+```
+
+### 14- Verificar si un número es primo
+Descripción:
+Devuelve true si el número es primo, false en caso contrario.
+
+#### Firma:
+```c#
+private static bool EsPrimo(int numero)
+```
+#### Invocación:
+```c#
+bool esPrimo = EsPrimo(7);
+```
 
