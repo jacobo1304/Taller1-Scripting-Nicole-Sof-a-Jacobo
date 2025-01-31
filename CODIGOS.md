@@ -1,4 +1,4 @@
-# Taller 1: Repaso Scripting
+# Taller 1: Solución Códigos
 #### Funciones (2)
 - *11. Cree un menú infinito con 3 opciones para realizar operaciones sencillas.*
 ##### Solución 
