@@ -399,7 +399,17 @@ internal class Program
 
 ✦ Estas palabras son llamadas así porque tienen funciones específicas que el lenguaje interpreta para estructurar y ejecutar el código. No pueden usarse como nombres de variables u otros elementos, ya que el compilador las reconoce como comandos específicos asignadas a su propósito definido en el lenguaje.
 
-## Firmas 
+#### Actividad Funciones
+- https://es.educaplay.com/recursos-educativos/22138910-funciones_y_metodos.html
+
+![Captura de pantalla 2025-01-31 110628](https://github.com/user-attachments/assets/c402f598-fe07-43cf-ab83-069855863565)
+
+#### Manejo de Terminal
+
+![Captura de pantalla 2025-01-31 115031](https://github.com/user-attachments/assets/8d4b51da-171e-49ec-8e0b-f708d1f343c9)
+
+#### Firmas
+
 ### 1- Sin parámetros y sin retorno
 
 Descripción:
@@ -658,10 +668,3 @@ static double CalcularPotencia(double base, int exponente)
 ```c#
 double potencia = CalcularPotencia(2, 3);
 ```
-
-#### Actividad Funciones
-- https://es.educaplay.com/recursos-educativos/22138910-funciones_y_metodos.html
-
-![Captura de pantalla 2025-01-31 110628](https://github.com/user-attachments/assets/c402f598-fe07-43cf-ab83-069855863565)
-
-
