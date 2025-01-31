@@ -597,3 +597,41 @@ private static bool EsPrimo(int numero)
 bool esPrimo = EsPrimo(7);
 ```
 
+### 15- Crear una matriz de números aleatorios
+Descripción:
+Genera una matriz de enteros con valores aleatorios.
+
+#### Firma:
+```c#
+public static int[,] GenerarMatrizAleatoria(int filas, int columnas)
+```
+#### Invocación:
+```c#
+int[,] matriz = GenerarMatrizAleatoria(3, 3);
+```
+
+### 16- Simular el lanzamiento de un dado
+Descripción:
+Genera un número aleatorio entre 1 y 6
+
+#### Firma:
+```c#
+private static int LanzarDado()
+```
+#### Invocación:
+```c#
+int resultado = LanzarDado();
+```
+
+### 17- Simular el lanzamiento de un dado
+Descripción:
+Genera un número aleatorio entre 1 y 6
+
+#### Firma:
+```c#
+private static int LanzarDado()
+```
+#### Invocación:
+```c#
+int resultado = LanzarDado();
+```
