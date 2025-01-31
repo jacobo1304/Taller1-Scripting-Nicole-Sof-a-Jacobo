@@ -1,6 +1,6 @@
 # Taller 1: Repaso Scripting
 
-## Integrntes: 
+## Integrantes: 
 Sofía Caraballo, Jacobo Rodríguez, Nicole Livingston
 
 ## 1. Escoja 7 enunciados: 
