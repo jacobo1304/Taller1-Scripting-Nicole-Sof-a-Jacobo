@@ -404,7 +404,6 @@ internal class Program
 ## Punto 2
 
 #### Actividad Funciones
-- https://es.educaplay.com/recursos-educativos/22138910-funciones_y_metodos.html
 
 ![Captura de pantalla 2025-01-31 110628](https://github.com/user-attachments/assets/c402f598-fe07-43cf-ab83-069855863565)
 
@@ -687,4 +686,8 @@ double potencia = CalcularPotencia(2, 3);
 
 
 #### Recursos bibliográficos
-
+- https://es.educaplay.com/recursos-educativos/22138910-funciones_y_metodos.html
+- https://www.canva.com/design/DAGdoxf21eQ/WOrg9giGhvjJFDCawA1JXw/edit?utm_content=DAGdoxf21eQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- https://cmdchallenge.com/
+- https://openai.com/index/chatgpt/
+- https://www.cockos.com/licecap/
