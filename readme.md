@@ -17,4 +17,5 @@
 
 - 2 preguntas de teoría
 
-## 2- Preparar una actividad, donde por medio de interacción con el grupo, se practique el concepto de función, recuerde que es lo mismo que un módulo o un método.
+### 2- Preparar una actividad, donde por medio de interacción con el grupo, se practique el concepto de función, recuerde que es lo mismo que un módulo o un método.
+### 3- Realizar los retos de manejo de terminal.
