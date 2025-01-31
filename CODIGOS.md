@@ -1,22 +1,4 @@
 # Taller 1: Repaso Scripting
-
-## Integrantes: 
-- Sofía Caraballo
-- Jacobo Rodríguez
-- Nicole Livingston
-
-### 1- Realizar cinco programas y responder dos preguntas de teoría.
-
-- 2 sobre uso de funciones
-
-- 1 sobre arreglos o matrices
-
-- 1 sobre cadenas
-
-- 1 sobre condiciones o ciclos
-
-- 2 preguntas de teoría
-
 #### Funciones (2)
 - *11. Cree un menú infinito con 3 opciones para realizar operaciones sencillas.*
 ##### Solución 
